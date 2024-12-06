@@ -10,11 +10,11 @@ import json
 from os import environ
 
 bot_token = environ.get("TOKEN", "") 
-api_hash = environ.get("HASH", "") 
-api_id = int(environ.get("ID", ""))
+api_hash = environ.get("HASH", "e3b8632e5034801fbeaea7aa3283f442") 
+api_id = int(environ.get("ID", "13892075"))
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-ss = environ.get("STRING", "")
+ss = environ.get("STRING", "BADT-esASXD2aSmcabHKJya3l620QJWOuzIm79SekYI4-eI_ephjL1O3BhTHzOb9A9-rqnCPIi2Zt5b1Z-_RhrMtBEBwm8Jq6-u17td59anCVmZkyz-hiMx8Msy1iwLNTHll6n7oP5fRdjxLBKk_poDz_ySXg8YYwL4zThPT7u2Utep91zdBOVMRq4zqrV4duN6gySSduJrk7X72Y95FBhLzW0ifi5O4Pmbv2SDux8smuA05LG8Eg-Q6CnScjQygtJaXdqwS04rQ-PeQ8a60RMK9dPf1ql6Z-xC4ruGEeObUqqkDduiPolv2CSYxFXfjPUyR8y904ZT9AksHNVonZeupuTYoRAAAAAGBTrCyAA")
 if ss is not None:
 	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
 	acc.start()
