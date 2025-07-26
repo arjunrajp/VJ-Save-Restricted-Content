@@ -10,11 +10,11 @@ import json
 from os import environ
 
 bot_token = environ.get("TOKEN", "") 
-api_hash = environ.get("HASH", "e3b8632e5034801fbeaea7aa3283f442") 
-api_id = int(environ.get("ID", "13892075"))
+api_hash = environ.get("HASH", "c845026a69da2bc2d46cba0fc06be69f) 
+api_id = int(environ.get("ID", "25514980"))
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-ss = environ.get("STRING", "BADT-esASXD2aSmcabHKJya3l620QJWOuzIm79SekYI4-eI_ephjL1O3BhTHzOb9A9-rqnCPIi2Zt5b1Z-_RhrMtBEBwm8Jq6-u17td59anCVmZkyz-hiMx8Msy1iwLNTHll6n7oP5fRdjxLBKk_poDz_ySXg8YYwL4zThPT7u2Utep91zdBOVMRq4zqrV4duN6gySSduJrk7X72Y95FBhLzW0ifi5O4Pmbv2SDux8smuA05LG8Eg-Q6CnScjQygtJaXdqwS04rQ-PeQ8a60RMK9dPf1ql6Z-xC4ruGEeObUqqkDduiPolv2CSYxFXfjPUyR8y904ZT9AksHNVonZeupuTYoRAAAAAGBTrCyAA")
+ss = environ.get("STRING", "BQGFU-QAl8XGH2fqAisBFIi5qNLks-9KlxjmnucBWgWXPnZlbSYJ5jqiW5HxMjfyyuNl6LBwWSqMlNmLFpmDRP2qhKU-Vun8aVu4tHVLh1whLQpR0X_im32fbdV1HHaBY9b4l2aOZEF9dnMOTcFjoLzaPSaGIdFHFQIh7fp4htohnR2VwmmvWxkvWbb7Vew-OcFq5PcEyL487XXRlVGAL_26hNbLDagaaTRqXfzdhuOrLKdJAQ8oT9e8VWWPgolE2gBCwhdV1EytI8mXDe02DqCkSuIZ5wblpZuXGvss5ut8F0lRVTK2X6AayGhOBmig2Uvbi1f6Hu5gVUN_Lk6RB6cwjHRhGgAAAAHwQ9h9AQ)
 if ss is not None:
 	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
 	acc.start()
